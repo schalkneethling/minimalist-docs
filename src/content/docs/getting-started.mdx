@@ -1,0 +1,42 @@
+---
+title: Getting Started with Minimalist
+description: Learn how to install and use Minimalist in your project.
+---
+
+import { FileTree, Steps, Tabs, TabItem } from '@astrojs/starlight/components';
+
+## Getting started
+
+<Steps>
+1. Install Minimalist in your project.
+    <Tabs syncKey="pkg">
+        <TabItem label="npm">
+            ```sh
+            npm create minimalist@latest
+            ```
+        </TabItem>
+   </Tabs>
+2. Provide the target folder relative to the root project directory.
+3. Import the `minimalist/minimalist.css` file in your project as appropriate for your project or framework.
+</Steps>
+
+In the target folder, you will find the following files:
+
+<FileTree>
+
+- minimalist
+  - atoms
+    - buttons.css
+    - forms.css
+    - media.css
+    - table.css
+    - text.css
+    - typography.css
+  - tokens
+    - custom-properties.css
+  - utils
+    - reset.css
+    - utils.css
+  - minimalist.css
+
+</FileTree>
