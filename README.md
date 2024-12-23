@@ -1,5 +1,7 @@
 # minimalist-docs
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d260bd53-9d40-46e3-b1ac-1e555ce9c9b5/deploy-status)](https://app.netlify.com/sites/minimalist-docs/deploys)
+
 Documentation for the [minimalist CSS library](https://github.com/schalkneethling/minimalist).
 
 ## 🧞 Commands
