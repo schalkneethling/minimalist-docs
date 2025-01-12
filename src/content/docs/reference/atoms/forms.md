@@ -13,11 +13,6 @@ This file contains CSS classes for styling form elements, focusing on consistent
 
 - **Description:** Sets a default block start and end margin for all `fieldset` elements.
 
-#### `.form-field`
-
-- **Description:** Provides a grid layout for form field groups with configurable gap and bottom margin.
-- **Use Case:** Organizes label-input pairs by stacking them vertically.
-
 ### Inputs, Selects, and Textareas
 
 #### `input`, `select:not(.custom-select)`, `textarea`
