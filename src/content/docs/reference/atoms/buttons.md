@@ -17,10 +17,6 @@ This file contains CSS classes for styling buttons. The classes are designed to 
 #### `.button`
 
 - **Description:** A base button style with configurable variants.
-- **Active State:**
-  - When active, shifts position slightly:
-    - `margin-block-start: var(--size-1);`
-    - `margin-inline-start: var(--size-1);`
 
 ### Variants of `.button`
 
