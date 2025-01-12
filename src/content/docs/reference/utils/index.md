@@ -9,6 +9,21 @@ Minimalist intentionally ships with a small set of utility classes but these may
 
 Minimalist also ships with a reset stylesheet. Instead of including the source here, please refer to the most up to date source in the [Minimalist GitHub repository](https://github.com/schalkneethling/minimalist/blob/main/src/minimalist/utils/reset.css)
 
+### Form field group
+
+CSS class to group form fields with consistent spacing.
+
+```css
+.form-field {
+  display: grid;
+  gap: var(--minimalist-form-field-gap, var(--size-12));
+  margin-block-end: var(
+    --minimalist-form-field-margin-block-end,
+    var(--size-12)
+  );
+}
+```
+
 ### Remove borders
 
 CSS class to remove borders from an element. By default Minimalist does not remove the border from the `fieldset` element as it can be a useful visual indicator for grouping form elements. This is an example use case where the `no-border` class can be helpful.
